@@ -1,6 +1,7 @@
 import { defaultTheme, defineUserConfig } from "vuepress";
 import { searchPlugin } from "@vuepress/plugin-search";
 export default defineUserConfig({
+  base: "/blog/",
   lang: "zh-CN",
   title: "笔记",
   description: "备忘录",
