@@ -12,9 +12,16 @@ export default defineUserConfig({
     }),
   ],
   theme: defaultTheme({
+    editLinkText: "编辑此页",
+    lastUpdatedText: "最后更新",
+    // 贡献者列表 标签的文字
+    contributorsText: "贡献者",
+    // 是否启用 贡献者列表 。
+    contributors: false,
+    docsDir: "docs",
     logo: "/logo.png",
     // 假定 GitHub。也可以是一个完整的 GitLab 网址
-    repo: "https://github.com/linyuxian/vue-press-note",
+    repo: "https://github.com/linyuxian/blog",
     navbar: [
       // NavbarItem
       {
@@ -79,6 +86,10 @@ export default defineUserConfig({
               {
                 text: "prettier",
                 link: "/standard/code/prettier",
+              },
+              {
+                text: "husky",
+                link: "/standard/code/husky",
               },
             ],
           },
