@@ -62,36 +62,37 @@ export default defineUserConfig({
         children: [
           {
             text: "基础规范",
-            link: "/standard/",
+            link: "/standard/base",
           },
           {
             text: "Vue规范",
             link: "/standard/vue",
           },
+          // {
+          //   text: "Css规范",
+          //   link: "/standard/css",
+          // },
+          // {
+          //   text: "Git提交规范",
+          //   link: "/standard/git",
+          // },
           {
-            text: "Css规范",
-            link: "/standard/css",
-          },
-          {
-            text: "Git提交规范",
-            link: "/standard/git",
-          },
-          {
-            text: "代码规范",
-            children: [
-              {
-                text: "ESLint",
-                link: "/standard/code/eslint",
-              },
-              {
-                text: "prettier",
-                link: "/standard/code/prettier",
-              },
-              {
-                text: "husky",
-                link: "/standard/code/husky",
-              },
-            ],
+            text: "规范工作流",
+            link: "/standard/workflow",
+            // children: [
+            //   {
+            //     text: "ESLint",
+            //     link: "/standard/code/eslint",
+            //   },
+            //   {
+            //     text: "prettier",
+            //     link: "/standard/code/prettier",
+            //   },
+            //   {
+            //     text: "husky",
+            //     link: "/standard/code/husky",
+            //   },
+            // ],
           },
         ],
       },
@@ -103,10 +104,10 @@ export default defineUserConfig({
         text: "面试整理",
         link: "/interview",
       },
-      // {
-      //   text: "杂七杂八",
-      //   link: "/other/",
-      // },
+      {
+        text: "其他",
+        link: "/other/",
+      },
     ],
   }),
 });
