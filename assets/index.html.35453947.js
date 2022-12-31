@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-4686e3d3","path":"/standard/code/prettier/","title":"规范","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1670579417000},"filePathRelative":"standard/code/prettier/README.md"}');export{e as data};
